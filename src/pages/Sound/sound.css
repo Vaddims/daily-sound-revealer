@@ -1,0 +1,19 @@
+#sound.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog-link {
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(151, 192, 208);
+  box-shadow: 0 0 20px #424242;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+}

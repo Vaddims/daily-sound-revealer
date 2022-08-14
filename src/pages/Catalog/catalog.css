@@ -1,0 +1,8 @@
+#catalog.page {
+  box-sizing: border-box;
+  min-height: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  margin: 1rem;
+  gap: 1rem;
+}
