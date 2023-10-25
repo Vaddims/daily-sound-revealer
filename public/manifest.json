@@ -1,8 +1,8 @@
 {
-  "short_name": "Eltero",
-  "name": "Project Eltero",
+  "short_name": "sound_revealer",
+  "name": "Daily Sound Revealer",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#292a33",
+  "background_color": "#292a33"
 }

@@ -1,0 +1,19 @@
+#sounds.route {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+  margin: 1rem;
+  gap: .5rem;
+}
+
+#sounds.route[data-has-content=false] {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.no-sounds-message {
+  color: white;
+  align-self: center;
+}

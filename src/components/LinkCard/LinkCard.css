@@ -1,0 +1,46 @@
+.link-card {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding-block: 1rem;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+  background-color: rgb(61, 62, 73);
+  border-radius: 5px;
+  border: 1px solid rgb(73, 73, 83);
+}
+
+.link-card:hover {
+  background-color: rgb(71, 72, 83);
+}
+
+.icon {
+  color: rgb(140, 140, 140);
+}
+
+.new {
+  color: white;
+  font-weight: 900;
+}
+
+.unlock-date {
+  color: rgb(140, 140, 140);
+}
+
+.sound-access-day {
+  line-height: 0;
+}
+
+.link-card[data-disabled=true] {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.link-card[data-disabled=true] .sound-access-day {
+  color: rgb(180, 180, 180);
+  background-color: transparent;
+}
